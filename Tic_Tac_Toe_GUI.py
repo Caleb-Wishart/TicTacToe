@@ -336,7 +336,7 @@ class TicTacToe(tk.Frame):
     self.status_button['text'] = self.gamestate
 
   # Handles the debug options GUI
-  def debugOptionsGUI(self):W
+  def debugOptionsGUI(self):
     # 'show_computer_moves':False, 'show_game_checks':False, 'show_each_automated_move':False,
     # 'debug_output':False, 'run_custom_auto_tests':False, 'custom_auto_tests_amount':0
     # Createa and manage window
